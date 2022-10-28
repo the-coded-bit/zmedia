@@ -40,3 +40,42 @@
     background-color: #fff;
     margin-bottom: 3rem;    
 }
+
+/* charts css */
+.charts-container{
+    background-color: #ffff;
+    height: 80%;
+}
+
+.analytics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 20px; 
+    padding: 1.5rem;
+}
+
+/* cards css */
+.card-container{
+    color: #ffff;
+    border-radius: 10px;
+    padding: 5px 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-heading{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card-price{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-percentage{
+    font-weight: 200;
+    font-size: 12px;
+}
