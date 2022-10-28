@@ -3,12 +3,12 @@
 /* char area css */
 
 /* sidebar css */
-.sidebar-container{
+.sidebar-container {
     width: 100%;
     height: 100vh;
 }
 
-.logo-container{
+.logo-container {
     margin: 0 2rem;
     margin-bottom: 3rem;
     background-color: #ffff;
@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.menu{
+.menu {
     display: grid;
     grid-template-columns: 10% 60% 20%;
     margin: 2rem;
@@ -29,34 +29,71 @@
     cursor: pointer;
 }
 
-.menu:hover{
-   opacity: 0.5;
-   color: blueviolet;
+.menu:hover {
+    opacity: 0.5;
+    color: blueviolet;
 }
 
 /* navbar css */
-.nav-container{
+.nav-container {
     height: 10%;
     background-color: #fff;
-    margin-bottom: 3rem;    
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.nav-menu-container{
+    font-size: 24px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.avatar{
+    background: url('https://i.pravatar.cc/150?img=56') center center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    width: 40%;
+    height: 50%;
+    display: grid;
+    background-color:rgb(241 245 249);
+    border-radius: 12px;
+    grid-template-columns: 5% 95%;
+    align-items: center;
+    padding: 0 2.5rem;
+
 }
 
 /* charts css */
-.charts-container{
+.charts-container {
     background-color: #ffff;
     height: 80%;
 }
 
-.analytics{
+.analytics {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 15px;
-    column-gap: 20px; 
+    column-gap: 20px;
     padding: 1.5rem;
 }
 
 /* cards css */
-.card-container{
+
+.card-container {
     color: #ffff;
     border-radius: 10px;
     padding: 5px 1rem;
@@ -65,17 +102,17 @@
     gap: 10px;
 }
 
-.card-heading{
+.card-heading {
     font-weight: 500;
     font-size: 15px;
 }
 
-.card-price{
+.card-price {
     font-weight: 700;
     font-size: 24px;
 }
 
-.card-percentage{
+.card-percentage {
     font-weight: 200;
     font-size: 12px;
 }
